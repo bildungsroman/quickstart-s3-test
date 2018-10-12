@@ -26,7 +26,7 @@ Here is an overview of the files:
 │   │   ├── scripts.js          <-- JavaScript scripts for the portfolio site
 │   │   ├── styles.css          <-- CSS styles for the portfolio site
 │   │   ├── img                 <-- Directory for storing portolio image files
-│   │   │   ├── logo.png      <-- Logo image in header
+│   │   │   ├── logo.png        <-- Logo image in header
 │   │   │   ├── portfolio1.png      <-- Image used in the portfolio
 │   │   │   ├── portfolio2.png      <-- Image used in the portfolio
 │   │   │   ├── portfolio3.png      <-- Image used in the portfolio
