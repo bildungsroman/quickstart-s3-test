@@ -16,20 +16,20 @@ Here is an overview of the files:
 ```bash
 .
 ├── README.md                   <-- This README file
-├── src                         <-- Source code dir for all AWS Lambda functions
+├── src                         <-- Source code dir for all AWS Lambda functions and website files
 │   ├── getWelcomePage          <-- Source code dir for getWelcomePage function
-│   │   ├── README.md           <-- Function-specific README
-│   │   ├── index.js            <-- Lambda function code
-│   │   ├── package.json        <-- NodeJS dependencies
+│   │   ├── README.md               <-- Function-specific README
+│   │   ├── index.js                <-- Lambda function code
+│   │   ├── package.json            <-- NodeJS dependencies
 │   ├── website                 <-- Folder that stores all of our static website assets
-│   │   ├── index.html          <-- The HTML for the portfolio site (renamed from `welcome.html`)
-│   │   ├── scripts.js          <-- JavaScript scripts for the portfolio site
-│   │   ├── styles.css          <-- CSS styles for the portfolio site
-│   │   ├── img                 <-- Directory for storing portolio image files
-│   │   │   ├── logo.png        <-- Logo image in header
-│   │   │   ├── portfolio1.png      <-- Image used in the portfolio
-│   │   │   ├── portfolio2.png      <-- Image used in the portfolio
-│   │   │   ├── portfolio3.png      <-- Image used in the portfolio
+│   │   ├── index.html              <-- The HTML for the portfolio site (renamed from `welcome.html`)
+│   │   ├── scripts.js              <-- JavaScript scripts for the portfolio site
+│   │   ├── styles.css              <-- CSS styles for the portfolio site
+│   │   ├── img                     <-- Directory for storing portolio image files
+│   │   │   ├── logo.png                <-- Logo image in header
+│   │   │   ├── portfolio1.png          <-- Image used in the portfolio
+│   │   │   ├── portfolio2.png          <-- Image used in the portfolio
+│   │   │   ├── portfolio3.png          <-- Image used in the portfolio
 └── template.yaml               <-- SAM infrastructure-as-code template
 ```
 
