@@ -21,14 +21,14 @@ Here is an overview of the files:
 │   │   ├── README.md           <-- Function-specific README
 │   │   ├── index.js            <-- Lambda function code
 │   │   ├── package.json        <-- NodeJS dependencies
-│   │   ├── website             <-- Folder that stores all of our static website assets
-│   │   │   ├── index.html          <-- The HTML for the portfolio site (renamed from `welcome.html`)
-│   │   │   ├── scripts.js          <-- JavaScript scripts for the portfolio site
-│   │   │   ├── styles.css          <-- CSS styles for the portfolio site
-│   │   │   ├── img                 <-- Directory for storing portolio image files
-│   │   │   │   ├── portfolio1.png      <-- Image used in the portfolio
-│   │   │   │   ├── portfolio2.png      <-- Image used in the portfolio
-│   │   │   │   ├── portfolio3.png      <-- Image used in the portfolio
+│   ├── website                 <-- Folder that stores all of our static website assets
+│   │   ├── index.html          <-- The HTML for the portfolio site (renamed from `welcome.html`)
+│   │   ├── scripts.js          <-- JavaScript scripts for the portfolio site
+│   │   ├── styles.css          <-- CSS styles for the portfolio site
+│   │   ├── img                 <-- Directory for storing portolio image files
+│   │   │   ├── portfolio1.png      <-- Image used in the portfolio
+│   │   │   ├── portfolio2.png      <-- Image used in the portfolio
+│   │   │   ├── portfolio3.png      <-- Image used in the portfolio
 └── template.yaml               <-- SAM infrastructure-as-code template
 ```
 
